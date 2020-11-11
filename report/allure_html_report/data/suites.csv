@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_scripts.test_allure01.Test_t01#test_01","1","测试用例描述test01"
+"passed","test_scripts.test_allure01.Test_t01#test_02","0","测试用例描述test02"
+"passed","test_scripts.test_allure01.Test_t01#test_04","1","测试用例描述test04"
+"failed","test_scripts.test_allure01.Test_t01#test_03","1","测试用例描述test03"

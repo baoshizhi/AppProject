@@ -1,0 +1,46 @@
+animal: pets
+dic: {'a':1,'b':2}
+arr:
+    - name
+    - age
+    - null
+    - Null
+
+abb:
+    a1: 101
+    a2: 102
+    a3: 103
+    a4: "www"
+    a5: 2020-11-02 16:16:00
+    a6: null
+
+student:
+    codenum: &num
+         xuehao: 10086
+    student1:
+         name: baoshizhi01
+         sex: 男
+         age: 21
+
+
+    student2:
+         name: baoshizhi02
+         sex: 男
+         age: 22
+         <<: *num
+
+    student3:
+         name: baoshizhi03
+         sex: 男
+         age: 23
+
+login:
+    login01:
+       name: baoshizhi01
+       pwd: 123456
+    login02:
+       name: baoshizhi02
+       pwd: 123457
+    login03:
+       name: baoshizhi03
+       pwd: 123458

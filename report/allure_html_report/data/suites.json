@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_scripts",
+    "children" : [ {
+      "name" : "test_allure01",
+      "children" : [ {
+        "name" : "Test_t01",
+        "children" : [ {
+          "name" : "--测试用例标题title01--",
+          "uid" : "64f4f574f78a9cbd",
+          "parentUid" : "8cf1c9173269526ede1fd5629f6b18da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605070742993,
+            "stop" : 1605070742994,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "--测试用例标题title02--",
+          "uid" : "b54b31f7875392ad",
+          "parentUid" : "8cf1c9173269526ede1fd5629f6b18da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605070743002,
+            "stop" : 1605070743002,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "--测试用例标题title03--",
+          "uid" : "9ee3c11b77055069",
+          "parentUid" : "8cf1c9173269526ede1fd5629f6b18da",
+          "status" : "failed",
+          "time" : {
+            "start" : 1605070743101,
+            "stop" : 1605070743102,
+            "duration" : 1
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "--测试用例标题title04--",
+          "uid" : "369f4238439924fa",
+          "parentUid" : "8cf1c9173269526ede1fd5629f6b18da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1605070743118,
+            "stop" : 1605070743119,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8cf1c9173269526ede1fd5629f6b18da"
+      } ],
+      "uid" : "d9f50a0d5bc56f6af81c8c571f368bbe"
+    } ],
+    "uid" : "2d3bdf8e3a77c9f6d9f660e16b26a1ff"
+  } ]
+}

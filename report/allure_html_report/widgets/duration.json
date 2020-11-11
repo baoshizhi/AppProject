@@ -1,0 +1,41 @@
+[ {
+  "uid" : "64f4f574f78a9cbd",
+  "name" : "--测试用例标题title01--",
+  "time" : {
+    "start" : 1605070742993,
+    "stop" : 1605070742994,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b54b31f7875392ad",
+  "name" : "--测试用例标题title02--",
+  "time" : {
+    "start" : 1605070743002,
+    "stop" : 1605070743002,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "369f4238439924fa",
+  "name" : "--测试用例标题title04--",
+  "time" : {
+    "start" : 1605070743118,
+    "stop" : 1605070743119,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9ee3c11b77055069",
+  "name" : "--测试用例标题title03--",
+  "time" : {
+    "start" : 1605070743101,
+    "stop" : 1605070743102,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

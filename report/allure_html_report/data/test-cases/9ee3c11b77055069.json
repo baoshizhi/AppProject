@@ -1,0 +1,519 @@
+{
+  "uid" : "9ee3c11b77055069",
+  "name" : "--测试用例标题title03--",
+  "fullName" : "test_scripts.test_allure01.Test_t01#test_03",
+  "historyId" : "8a92b72769de0ac1671d2c0b29024b57",
+  "time" : {
+    "start" : 1605070743101,
+    "stop" : 1605070743102,
+    "duration" : 1
+  },
+  "description" : "测试用例描述test03",
+  "descriptionHtml" : "<p>测试用例描述test03</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_scripts.test_allure01.Test_t01 object at 0x00000000024920C8>\n\n    @allure.story('--测试用例功能划分02--')\n    @allure.title(\"--测试用例标题title03--\")\n    @allure.description(\"测试用例描述test03\")\n    @allure.step('--步骤step03---')\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_03(self):\n>       assert False\nE       assert False\n\ntest_scripts\\test_allure01.py:35: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605070742991,
+      "stop" : 1605070742991,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试用例描述test03",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test_scripts.test_allure01.Test_t01 object at 0x00000000024920C8>\n\n    @allure.story('--测试用例功能划分02--')\n    @allure.title(\"--测试用例标题title03--\")\n    @allure.description(\"测试用例描述test03\")\n    @allure.step('--步骤step03---')\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_03(self):\n>       assert False\nE       assert False\n\ntest_scripts\\test_allure01.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "--步骤step03---",
+      "time" : {
+        "start" : 1605070743101,
+        "stop" : 1605070743101,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False\n",
+      "statusTrace" : "  File \"C:\\python37\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\AppProject\\test_scripts\\test_allure01.py\", line 35, in test_03\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605070743121,
+      "stop" : 1605070743122,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "测试类Test_t01功能说明---"
+  }, {
+    "name" : "story",
+    "value" : "--测试用例功能划分02--"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_t01"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200623IHT"
+  }, {
+    "name" : "thread",
+    "value" : "9036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_allure01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "284385f51d97704e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605070743007,
+        "stop" : 1605070743009,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "bf72a776f9309ce9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605066095393,
+        "stop" : 1605066095394,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f7b865c50c4b68b1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605066095282,
+        "stop" : 1605066095283,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b34df517a8191785",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605065997353,
+        "stop" : 1605065997354,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a769259798d8daf7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605065997244,
+        "stop" : 1605065997245,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "61d5f3ead2592b4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605065309995,
+        "stop" : 1605065309996,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7dc4a342e6ab5894",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605065309800,
+        "stop" : 1605065309803,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "1daebc4ceb5cbd77",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605063602743,
+        "stop" : 1605063602744,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e6d17156372c2538",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605063602637,
+        "stop" : 1605063602639,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7c29cdd7e6c054a4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605061502666,
+        "stop" : 1605061502667,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "de4782202716dd40",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605061502572,
+        "stop" : 1605061502574,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "cce0388238a5dd6f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605060362723,
+        "stop" : 1605060362724,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3f9d10ea443ede3d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605060362642,
+        "stop" : 1605060362643,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f84aec9b4ac6b114",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605059822891,
+        "stop" : 1605059822892,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b71cb88af5c5ad9c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605059822814,
+        "stop" : 1605059822816,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "db2a18e904dea3a2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605059702708,
+        "stop" : 1605059702709,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8c959ad54d5f5bd1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605059702613,
+        "stop" : 1605059702614,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bb98e42303baf0a4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605059582543,
+        "stop" : 1605059582544,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b97ab7a9c7174193",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605059582469,
+        "stop" : 1605059582470,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ce982acde0a3d251",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058982578,
+        "stop" : 1605058982579,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "866e674f2163a36a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058982499,
+        "stop" : 1605058982500,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5c31cd570eb7c961",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058863338,
+        "stop" : 1605058863339,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "acb6b3efd411ea0c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058863264,
+        "stop" : 1605058863265,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a90fbeeb3bf97423",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058503163,
+        "stop" : 1605058503164,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "210283c6419b3364",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058503096,
+        "stop" : 1605058503097,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "27b433e77228be25",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058384185,
+        "stop" : 1605058384186,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "78f43f2dfc868e10",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058384053,
+        "stop" : 1605058384055,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4176da5113dcf379",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058262656,
+        "stop" : 1605058262657,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d7b6249c96b27e52",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058262558,
+        "stop" : 1605058262560,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d57723af975301e1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058143773,
+        "stop" : 1605058143774,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3162e9cd92d2db2b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058143657,
+        "stop" : 1605058143661,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "a155417f82aa144c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058022707,
+        "stop" : 1605058022708,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4ee04b47437e0614",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605058022623,
+        "stop" : 1605058022625,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7ddb6ba47ce37a6d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605057902927,
+        "stop" : 1605057902928,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f2d99614951bb38b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605057902839,
+        "stop" : 1605057902841,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5f38e810d4425294",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605057817358,
+        "stop" : 1605057817360,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "2c579130bd69c1fd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605057817102,
+        "stop" : 1605057817105,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "85e7911a10a52038",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605057783508,
+        "stop" : 1605057783509,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "62828571f5291c3c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1605057783421,
+        "stop" : 1605057783423,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "fe75e13ba4dc2573",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1604998682888,
+        "stop" : 1604998682889,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c72a9e1fa4895be4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1604998682738,
+        "stop" : 1604998682740,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3c63abb6ebe7b463",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1604997444119,
+        "stop" : 1604997444121,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "46438ad299b058a0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1604997443944,
+        "stop" : 1604997443945,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ee3c11b77055069.json",
+  "parameterValues" : [ ]
+}

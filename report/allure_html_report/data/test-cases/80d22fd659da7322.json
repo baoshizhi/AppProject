@@ -1,0 +1,120 @@
+{
+  "uid" : "80d22fd659da7322",
+  "name" : "--测试用例标题title02--",
+  "fullName" : "test_scripts.test_allure01.Test_t01#test_02",
+  "historyId" : "0af298ca49aa1a379ae6622a2887c5a4",
+  "time" : {
+    "start" : 1605065309785,
+    "stop" : 1605065309785,
+    "duration" : 0
+  },
+  "description" : "测试用例描述test02",
+  "descriptionHtml" : "<p>测试用例描述test02</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1605065309771,
+      "stop" : 1605065309771,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试用例描述test02",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "--步骤step02---",
+      "time" : {
+        "start" : 1605065309785,
+        "stop" : 1605065309785,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1605065310043,
+      "stop" : 1605065310043,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试类Test_t01功能说明---"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "--测试用例功能划分01--"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_t01"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200623IHT"
+  }, {
+    "name" : "thread",
+    "value" : "9460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_allure01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80d22fd659da7322.json",
+  "parameterValues" : [ ]
+}
